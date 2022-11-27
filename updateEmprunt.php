@@ -11,7 +11,7 @@ if ($_POST['confirmerL']) {
 
 if ($_POST['confirmerD']) {
 
-    $id = $_POST['id_emprunt'];
+    $iddisque = $_POST['id_emprunt'];
     updateEtatD($iddisque);
     header('Location:admin.php');
 
