@@ -8,11 +8,12 @@ if ($_POST['confirmerL']) {
     header('Location:admin.php');
 
 }
-
+if ($_POST)
+    print_r($_POST);
 if ($_POST['confirmerD']) {
 
-    $iddisque = $_POST['id_emprunt'];
-    updateEtatD($iddisque);
+    $iddisque = $_POST['id_emprunt_1'];
+    $test = updateEtatD($iddisque);
     header('Location:admin.php');
 
 }

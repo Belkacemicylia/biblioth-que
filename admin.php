@@ -324,7 +324,7 @@ require_once "nav.php";
                             </td>
                             <td>
                                 <form method="post" action="updateEmprunt.php">
-                                    <input type="hidden" name="id_emprunt" value="<?= $emprunt->id_emprunt ?>">
+                                    <input type="hidden" name="id_emprunt_1" value="<?= $empruntD->id_emprunt ?>">
                                     <input class="btn btn-success" type="submit" value="confirmer" name="confirmerD">
                                 </form>
 
