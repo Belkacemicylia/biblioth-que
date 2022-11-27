@@ -3,7 +3,7 @@ require_once "fonctions.php";
 
 if ($_POST['confirmerL']) {
 
-    $id = $_POST['id_emprunt'];
+    $idlivre = $_POST['id_emprunt'];
     updateEtatL($idlivre);
     header('Location:admin.php');
 
